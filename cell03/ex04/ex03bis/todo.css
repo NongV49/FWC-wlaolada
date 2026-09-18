@@ -1,0 +1,35 @@
+body {
+    font-family: monospace;
+    text-align: center;
+}
+
+#new {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#ft_list {
+    width: 300px;
+    margin: auto;
+}
+
+.todo {
+    width: 250px;
+    padding: 15px;
+    margin: 5px auto;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo p {
+    margin: 0;
+}
+
+.todo button {
+    width: 30px;
+    height: 30px;
+}
